@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#auth-container {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#user-info {
+    padding: 10px;
+}
+/* dashbord */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #019e62;
+    border: solid 1px red;
+
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    color: #242323;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#searchBar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+main{
+  padding-top: 70px;
+}
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    width: calc(25% - 2rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.item h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #555;
+}
